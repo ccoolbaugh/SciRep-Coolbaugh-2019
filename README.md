@@ -11,7 +11,7 @@ Crystal Coolbaugh
 -   [Custom Functions](#custom-functions)
     -   [Mean Difference for Multiple Variables](#mean-difference-for-multiple-variables)
     -   [Bootstrap Confidence Intervals for Difference in Means](#bootstrap-confidence-intervals-for-difference-in-means)
-    -   [Wilcox Signed Rank Test for Multiple Variables](#wilcox-signed-rank-test-for-multiple-variables)
+    -   [Wilcox Signed Rank Test for Multiple Variables](#wilcox-test-for-multiple-variables)
 -   [Figure Parameters](#figure-parameters)
 -   [Table 2: Subject Demographics and Environmental Conditions Summary](#table-2-subject-demographics-and-environmental-conditions-summary)
 -   [Figure 3: Cooling Dose Concept](#figure-3-cooling-dose-concept)
@@ -24,7 +24,7 @@ Crystal Coolbaugh
     -   [Spearman Rank Correlation: Mean FSF vs. Normalized Cooling Dose](#spearman-rank-correlation-mean-fsf-vs-normalized-cooling-dose)
 -   [Figure 7: Mean Fat-Signal Fraction Response Tracks with Thermal Sensation](#figure-7-mean-fat-signal-fraction-response-tracks-with-thermal-sensation)
     -   [Spearman Rank Correlation: Mean FSF vs. Thermal Sensation](#spearman-rank-correlation-mean-fsf-vs-thermal-sensation)
--   [Figure S1: Simulated Effect of Temperature on Fat-Signal Fraction Bias](#figure-s1-simulated-effect-temperature-fat-signal-fraction-bias)
+-   [Figure S1: Simulated Effect of Temperature on Fat-Signal Fraction Bias](#figure-s1-computer-simulation-of-the-effect-of-temperature-on-fsf-bias)  
     
 
 ## Reproducible Analysis
@@ -681,7 +681,7 @@ cor.test(Bat80$tGUI,Bat80$Mean, method='spearman')
 cor.test(Bat90$tGUI,Bat90$Mean, method='spearman')
 
 ```
-## Figure S1: Computer Simulation of the Effect of Temperature on FSF Bias
+## Figure S1: Computer Simulation of the Effect of Temperature on FSF Bias      
 Plot the effect of temperature change on the quantification of FSF at each of the BAT FSF Decade.  
 ```{r FigS1, echo=FALSE}
 
